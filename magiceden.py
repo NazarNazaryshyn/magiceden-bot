@@ -148,7 +148,7 @@ def mint(values, is_windows):
     prefs = {"profile.managed_default_content_settings.images":2}
     options.add_experimental_option("prefs", prefs)
 
-    driver = webdriver.Chrome(executable_path='C:\\Users\\nnaza\\PycharmProjects\\NFT_minter(magic)\\chromedriver.exe', options=options)
+    driver = webdriver.Chrome(executable_path='YOUR PATH TO CHROME DRIVER', options=options)
     print('Successfully found chrome driver')
 
     stealth(driver,
